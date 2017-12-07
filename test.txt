@@ -1,0 +1,25 @@
+character = Surface((31,45),pygame.SRCALPHA)
+character.blit(spritesheet,(0,-9))
+character = pygame.transform.scale(character, (31*3,45*3))
+ZuchiStand = character
+
+character = Surface((31,45),pygame.SRCALPHA)
+character.blit(spritesheet,(-81,-9))
+character = pygame.transform.scale(character, (31*3,45*3))
+[C[D[A  = character
+
+character = Surface((31,45),pygame.SRCALPHA)
+character.blit(spritesheet,(-81,-9))
+character = pygame.transform.scale(character, (31*3,45*3))
+ZuchiRun = character
+
+character = Surface((27,45),pygame.SRCALPHA)
+character.blit(spritesheet,(-118,-120))
+character = pygame.transform.scale(character, (27*3,45*3))
+Zuchileft = character
+
+character = Surface((31,38),pygame.SRCALPHA)
+character.blit(spritesheet,(-406,-124))
+character = pygame.transform.scale(character, (31*3,38*3))
+ZuchiJump = character
+
